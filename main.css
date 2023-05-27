@@ -60,4 +60,16 @@ body {
     .carousel-item img {
         height: 280px;
     }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .eventos  {
+        width: 90%;
+        max-width: 1023px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 1fr) );
+        grid-gap:20px;
+    }
 }
